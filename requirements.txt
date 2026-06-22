@@ -2,6 +2,5 @@ asgiref==3.11.1
 Django==6.0.6
 sqlparse==0.5.5
 tzdata==2026.2
-"Django" 
-"Django>>=5" 
-"Django>=5" 
+dj-database-url
+psycopg2-binary
