@@ -73,6 +73,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# pyrefly: ignore [missing-import]
 import dj_database_url
 
 if 'DATABASE_URL' in os.environ:
